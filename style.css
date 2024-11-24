@@ -1,0 +1,52 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.body, .header {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav, .banner, ul.links, .image {
+    display: flex;
+    flex-direction: row;
+}
+
+/* header */
+
+.header {
+    padding: 10px 150px;
+    gap: 50px;
+}
+
+/* nav */
+
+ul.links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    margin-left: auto;
+}
+
+/* banner */
+
+.hero h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 50px;
+}
+
+.image {
+    width: 500px;
+    background-color: grey;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
