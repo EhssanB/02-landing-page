@@ -2,6 +2,8 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
+    font-family: sans-serif;
 }
 
 .body, .header {
@@ -19,8 +21,9 @@
 /* header */
 
 .header {
-    padding: 10px 150px;
-    gap: 50px;
+    padding: 10px 180px;
+
+    background-color: #1F2937;
 }
 
 /* nav */
@@ -35,18 +38,52 @@ ul.links {
 
 /* banner */
 
+.banner {
+    padding: 120px 0px;
+    gap: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+}
+
 .hero h1 {
-    padding: 0px;
-    margin: 0px;
-    font-size: 50px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7e8;
+}
+
+.hero button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    box-shadow: none;
+    border-style: none;
+    border-width: 0px;
+
+    padding: 8px 32px;
+
+    color: #f9faf8
 }
 
 .image {
-    width: 500px;
-    background-color: grey;
-
-    text-align: center;
     justify-content: center;
     align-items: center;
+
+    flex: 0 0 475px;
+    
+    height: 200px;
+
+    background-color: #6d747d;
+    color: #f7f7f8;
+    text-align: center;
 }
 
