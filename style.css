@@ -13,7 +13,7 @@
     margin: 0px;
 }
 
-.nav, .banner, ul.links, .image, .info-section {
+.nav, .banner, ul.links, .image, .info-section, .footer {
     display: flex;
     flex-direction: row;
 }
@@ -196,4 +196,20 @@ ul.links li a {
     background-color: #3882f6;
     font-size: 14px;
     font-weight: bold;
+}
+
+/* FOOTER */
+
+.footer {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer div {
+    background-color: #1F2937;
+    color: #e5e7e8;
+    flex: auto;
+    text-align: center;
+    padding: 28px 0px;
+    font-weight: lighter;
 }
