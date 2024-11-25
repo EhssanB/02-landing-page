@@ -22,18 +22,33 @@
 
 .header {
     padding: 10px 180px;
-
     background-color: #1F2937;
 }
 
 /* nav */
 
+.nav {
+    padding-top: 12px;
+}
+
+.nav .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
 ul.links {
     padding: 0;
     margin: 0;
     list-style: none;
-
     margin-left: auto;
+
+    display: flex;
+    gap: 20px;
+}
+
+ul.links li a {
+    color: #f9faf8;
+    text-decoration: none;
 }
 
 /* banner */
@@ -79,8 +94,6 @@ ul.links {
     align-items: center;
 
     flex: 0 0 475px;
-    
-    height: 200px;
 
     background-color: #6d747d;
     color: #f7f7f8;
