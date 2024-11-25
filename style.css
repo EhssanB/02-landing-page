@@ -134,3 +134,27 @@ ul.links li a {
     width: 150px;
     border-radius: 12px;
 }
+
+/* QUOTE SECTION */
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 240px;
+    gap: 12px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: flex-end;
+}
